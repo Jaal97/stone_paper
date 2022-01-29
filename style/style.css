@@ -1,0 +1,102 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    max-width: 450px;
+    height: 100vh;
+    max-height: 748px;
+    margin: 0 auto;
+    background: rgb(255, 178, 35);
+    display: flex;
+    flex-direction: column;
+    border: 4px solid black;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+h1
+{
+    font-size: 38px;
+    text-align: center;
+    padding: 10px;
+}
+
+#result
+{
+   text-align: center;
+
+}
+
+#result img
+{
+    width: 22%;
+}
+
+#vs
+{
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.start-text
+{
+    
+    align-items: center;
+    font-size: 26px;
+    padding: 20px;
+    
+    
+}
+
+.start-text p:nth-child(1)
+{
+    text-align: center;
+    
+    padding: 0px;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    
+    
+}
+
+.group-btn
+{
+    display: flex;
+    
+    width: 100%;
+}
+
+button
+{
+    
+    margin-top: 10px;
+    border: 4px solid black;
+    border-radius: 30px;
+}
+
+.group-btn > button > img
+{
+    width: 100%;
+}
+
+.group-btn button:nth-child(1)
+{
+    background-color: rgb(204, 140, 57);
+}
+
+.group-btn button:nth-child(2)
+{
+    background-color: whitesmoke;
+}
+
+.group-btn button:nth-child(3)
+{
+    background-color: rgb(48, 197, 190);
+}
+
+
