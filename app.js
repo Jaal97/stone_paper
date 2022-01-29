@@ -32,14 +32,14 @@ scissorsBtn.addEventListener("click", ()=>
 
 function play(userOption)
 {
-    userImg.src = "/assets/"+userOption+".svg";
+    userImg.src = "/stone_paper/assets/"+userOption+".svg";
 
     resultText.innerHTML = "Pensando!" +  "</br>" + "</br>" + "</br>";
 
     const interval = setInterval(function()
     {
         const machineOption = calcMachineOption();
-        machineImg.src = "/assets/"+machineOption+".svg";
+        machineImg.src = "/stone_paper/assets/"+machineOption+".svg";
         
     }, 500);
 
@@ -50,7 +50,7 @@ function play(userOption)
         const result = calResult(userOption, machineOption);
 
     
-    machineImg.src = "/assets/"+machineOption+".svg";
+    machineImg.src = "/stone_paper/assets/"+machineOption+".svg";
 
     switch(result)
     {
